@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    flex: auto;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66),
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0)),
+    url('photos/couple.jpg');
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heading{
+    margin: 10px;
+    color:darksalmon;
+    font-size: 70px;
+}
+img{
+    height: 400px;
+}
+button{
+    font-size: x-large;
+    color: red;
+    background-color: blueviolet;
+    margin-right: 20px;
+    padding: 3px;
+
+}
